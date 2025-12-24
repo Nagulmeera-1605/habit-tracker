@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Daily Habit Tracker</h1>
+        <p id="date"></p>
+<p id="progress">Progress: 0%</p>
+
+        <div class="habit">
+            <label><input type="checkbox" id="study"> Study Done</label>
+        </div>
+
+        <div class="habit">
+            <label><input type="checkbox" id="gym"> Gym Done</label>
+        </div>
+
+        <div class="habit">
+            <label><input type="checkbox" id="food"> Clean Eating</label>
+        </div>
+
+        <div class="habit">
+            <label><input type="checkbox" id="sleep"> Wake Up Early</label>
+        </div>
+
+        <button onclick="saveHabits()">Save Today</button>
+        <p id="msg"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
